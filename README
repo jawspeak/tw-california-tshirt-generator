@@ -1,0 +1,15 @@
+Prerequisites
+==============
+python
+virtualenv, which you can install with "sudo easy_install virtualenv"
+
+How to install
+==============
+git clone git://github.com/jawspeak/twu-pdf-award-printers.git
+
+cd twu-pdf-award-printers
+virtualenv tw_tshirt_env
+. twu_tshirt_env/bin/activate
+./bootstrap.py  #this installs everything into your virtualenv
+python ./generate_shirts.py
+look at the tshirt-sumbissions-made-in-california.pdf
