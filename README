@@ -11,5 +11,8 @@ cd twu-pdf-award-printers
 virtualenv tw_tshirt_env
 . twu_tshirt_env/bin/activate
 ./bootstrap.py  #this installs everything into your virtualenv
-python ./generate_shirts.py
+python ./design_shirts_from_california.py
 look at the tshirt-sumbissions-made-in-california.pdf
+
+
+******* Inspired from my Awesome TWU award printer https://github.com/jawspeak/twu-pdf-award-printers ********
