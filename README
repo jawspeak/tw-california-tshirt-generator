@@ -5,12 +5,13 @@ virtualenv, which you can install with "sudo easy_install virtualenv"
 
 How to install
 ==============
-git clone git://github.com/jawspeak/twu-pdf-award-printers.git
+git clone https://jawspeak@github.com/jawspeak/tw-california-tshirt-generator.git
 
-cd twu-pdf-award-printers
-virtualenv tw_tshirt_env
-. twu_tshirt_env/bin/activate
+cd tw-california-tshirt-generator
+virtualenv tw_tshirt_env   #this creates a new virtualenv
+. tw_tshirt_env/bin/activate
 ./bootstrap.py  #this installs everything into your virtualenv
+# optionally, edit the constants in the script, or change the filenames to blahblah=A clever caption.jpg
 python ./design_shirts_from_california.py
 look at the tshirt-sumbissions-made-in-california.pdf
 
